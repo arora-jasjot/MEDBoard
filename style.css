@@ -147,7 +147,7 @@ nav a:hover{
     padding-left: 10px;
 }
 
-/*Classes*/
+/*Tables*/
 .dataTables_wrapper{
     min-width: 100%;
     margin-top: 50px;
@@ -159,7 +159,7 @@ nav a:hover{
     padding: 10px;
 }
 .sorting_1{
-    padding-left: 30px !important;
+    padding-left: 20px !important;
 }
 
 /*Footer*/
@@ -210,4 +210,14 @@ nav a:hover{
 }
 #message .fa-heart{
     color: rgb(255, 38, 38);
+}
+@media only screen and (max-width: 600px){
+    table{
+        font-size: 14px;
+    }
+}
+@media only screen and (max-width: 350px){
+    table{
+        font-size: 12px;
+    }
 }
